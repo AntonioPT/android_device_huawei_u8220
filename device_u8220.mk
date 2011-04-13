@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
     device/huawei/u8220/ueventd.qcom.rc:root/ueventd.qcom.rc
 
 # Use prebuilt vold for now.
-#PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
     device/huawei/u8220/prebuilt/vold:system/bin/vold
 
 # Install the features available on this device.
@@ -89,7 +89,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # This only affects the case in which there are remembered access points,
 # but none are in range.
 PRODUCT_PROPERTY_OVERRIDES += \
-    wifi.supplicant_scan_interval=15
+    wifi.supplicant_scan_interval=30
 
 # density in DPI of the LCD of this board. This is used to scale the UI
 # appropriately. If this property is not defined, the default value is 160 dpi. 
