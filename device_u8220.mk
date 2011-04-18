@@ -83,7 +83,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.compcache.default=18
+    ro.compcache.default=18 \
     dalvik.vm.heapsize=24m
 
 # Time between scans in seconds. Keep it high to minimize battery drain.
